@@ -1,4 +1,4 @@
-document.getElementsByTagName('h1')[0].innerHTML="Fraz" 
+// document.getElementsByTagName('h1')[0].innerHTML="Fraz" 
 
 // document.getElementsByTagName('p')[1].innerHTML="Fizza"
 
@@ -27,11 +27,11 @@ document.getElementsByTagName('h1')[0].innerHTML="Fraz"
 // console.log(10+11)
 
 
-let FirstName = "Mammadrza"
-let Surname = "Talibov"
-let bDay = 1991
-let current_year = 2024
-let Company = "Facebbok"
+// let FirstName = "Mammadrza"
+// let Surname = "Talibov"
+// let bDay = 1991
+// let current_year = 2024
+// let Company = "Facebbok"
 // proqramming language
 // car
 // School
@@ -71,4 +71,24 @@ let Company = "Facebbok"
 // console.log(aD)
 // console.log(_aD)
 // console.log($aD)
+
+
+
+
+// var Name = "Tester"  // String // str // Text
+// var Age = 29 // Number // num // integer // int
+// var status = true  // Boolean // bool // true = 1, false = 0
+
+
+
+// var  myName = "Tester"
+
+// console.log(Name)
+
+
+
+
+
+
+
 
