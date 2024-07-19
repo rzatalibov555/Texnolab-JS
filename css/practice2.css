@@ -1,0 +1,16 @@
+body{
+    background-image: url('https://preview.redd.it/875kdouizxx61.png?auto=webp&s=42bc1333071c9760b1e8da15f20ea6678f1f42cf');
+    background-size: cover;
+}
+
+#demo{
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    float: left;
+    transition: 0.5s;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
