@@ -1,0 +1,145 @@
+/* 
+
+.show{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border: 2px solid red;
+    float: left;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.green{
+    background: green;
+}
+
+.red{
+    background: blue;
+    transform: rotateY(180deg);
+}
+
+.img1{
+    background-image: url('https://cdn.britannica.com/61/137461-050-BB6C5D80/Brad-Pitt-2008.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.navClass{
+    width: 100%;
+    min-height: 70px;
+    background: red;
+    float: left;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo, .menu, .icon, .burgerMenu{
+    min-width: 100px;
+    min-height: 70px;
+    background: blue;
+   
+    float: left;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li{
+    list-style-type: none;
+    float: left;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.MobileNav{
+    width: 100%;
+    min-height: 70px;
+    background: blue;
+    float: left;
+    display: none;
+    position: relative;
+    
+}
+.right{
+    float: right;
+}
+
+.menuDesign{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}   
+
+.MobileNavMenu{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(7, 2, 45);
+    float: left;
+    position: fixed;
+    top: -100%;
+    left: 0px;
+    transition: 0.5s;
+    z-index: -1;
+    /* display: none; */
+}
+
+.MobileNavMenuDeactivate{
+    top: 70px;
+}
+
+.MobileNavMenu ul{
+    padding: 0px;
+}
+
+.MobileNavMenu li{
+    width: 100%;
+    min-height: 50px;
+    /* background: green; */
+    float: left;
+    margin: 2px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navClass {
+      display: none;
+    }
+
+    .MobileNav{
+        display: block;
+    }
+}

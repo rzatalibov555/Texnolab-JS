@@ -1,0 +1,23 @@
+
+#demo{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    float: left;
+}
+.aa{
+    background: black;
+}
+.bgColor{
+    background: green;
+}
+
+
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
