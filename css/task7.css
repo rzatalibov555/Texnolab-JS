@@ -1,0 +1,29 @@
+
+
+.demo{
+    width: 150px;
+    height: 150px;
+    background: rgb(139, 130, 130);
+    float: left;
+    margin: 5px;
+}
+
+.demo2{
+    width: 150px;
+    height: 150px;
+    background: grey;
+    float: left;
+    margin: 5px;
+}
+
+/* #demo1 {
+    background: red;
+    color: white;
+} */
+
+
+.myInput{
+    background: blue;
+    color: white;
+}
+
