@@ -1,0 +1,205 @@
+
+
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+    /* background: grey; */
+    background-image: url('https://raw.githubusercontent.com/sans-wd/CFF_final_exam/69d52b74da74bd0f4ebdb63727acb7f8a532230a/img/background_home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#navbar_r{
+    width: 100%;
+    min-height: 70px;
+    /* background: grey; */
+    float: left;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_r{
+    width: 200px;
+    min-height: 70px;
+    /* background: red; */
+    float: left;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    
+}
+
+.logo_r img{
+    width: 100%;
+    
+}
+
+.menu_r{
+    /* width: calc(100% - 200px); */
+    min-width: 400px;
+    min-height: 70px;
+    background: transparent;
+    float: left;
+
+    
+}
+
+.menu_r ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu_r ul li{
+    float: left;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.menu_r ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.l-side, .r-side{
+    width: 100%;
+    min-height: 600px;
+    /* background: green; */
+    float: left;
+
+    /* backdrop-filter: blur(60px); */
+}
+
+.r-side{
+    background-image: url('https://raw.githubusercontent.com/sans-wd/CFF_final_exam/69d52b74da74bd0f4ebdb63727acb7f8a532230a/img/avatar_home.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-position: center center;
+}
+
+.r-side img{
+    width: 100%;
+}
+
+
+.boxEffect{
+    width: 50px;
+    height: 50px;
+    background: white;
+    float: left;
+    position: absolute;
+    left: 90px;
+    top: 50px;
+    animation-name: animator;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.boxEffect2{
+    width: 50px;
+    height: 50px;
+    /* background: red; */
+    float: left;
+    position: absolute;
+    right: 100px;
+    top: 170px;
+    animation-name: animator2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.boxEffect3{
+    width: 50px;
+    height: 50px;
+    /* background: red; */
+    float: left;
+    position: absolute;
+    left: 200px;
+    bottom: 100px;
+    animation-name: animator3;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.borderR{
+    border-radius: 10px;
+}
+
+.disFlex_b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.borderR img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes animator {
+    from{
+        top: 50px;
+    }
+    to{
+        top: 100px;
+    }
+}
+
+@keyframes animator2 {
+    from{
+        top: 170px;
+    }
+    to{
+        top: 220px;
+    }
+}
+
+@keyframes animator3 {
+    from{
+        bottom: 100px;
+    }
+    to{
+        bottom: 50px;
+    }
+}

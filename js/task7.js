@@ -130,3 +130,15 @@ input.setAttribute('placeholder',"Enter username")
 
 const my_button = document.getElementById("demo1")
 my_button.setAttribute("type", "button")
+
+// https://www.w3schools.com/jsref/met_document_createelement.asp - HTML DOM Document createElement()
+// https://www.w3schools.com/jsref/met_document_createattribute.asp - HTML DOM Document createAttribute()
+// https://www.w3schools.com/jsref/met_document_createcomment.asp - HTML DOM Document createComment()
+// https://www.w3schools.com/jsref/event_createevent.asp - HTM DOM Document createEvent()
+// https://www.w3schools.com/jsref/met_document_createtextnode.asp - HTML DOM Document createTextNode()
+// https://www.w3schools.com/jsref/met_node_appendchild.asp - HTML DOM Element appendChild()
+// https://www.w3schools.com/jsref/met_element_addeventlistener.asp - HTML DOM Element addEventListener()
+// https://www.w3schools.com/jsref/prop_node_innertext.asp - HTML DOM Element innerText
+// https://www.w3schools.com/jsref/prop_html_innerhtml.asp - HTML DOM Element innerHTML
+// https://www.w3schools.com/jsref/met_element_getattribute.asp - HTML DOM Element getAttribute()
+// https://www.w3schools.com/jsref/met_element_getattributenode.asp - HTML DOM Element getAttributeNode()
