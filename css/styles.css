@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.filter-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.filter-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filter-btn:hover {
+    background-color: #555;
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s, opacity 0.3s;
+}
